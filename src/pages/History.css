@@ -1,0 +1,26 @@
+.history{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item-history{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+}
+.card-history {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    height: 200px;
+    width: 100%;
+    background-color: coral;
+    border-radius: 20px;
+}
+
+.card-history-text{
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+    
+}

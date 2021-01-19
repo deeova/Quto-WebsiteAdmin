@@ -1,0 +1,58 @@
+.orderan {
+    display: flex;
+    flex-direction: row;
+}
+
+.kiri {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.kanan {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.menu-item-order{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+}
+.card-order {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    height: 200px;
+    width: 100%;
+    background-color: coral;
+    border-radius: 20px;
+}
+
+.card-order-text{
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;   
+}
+
+.button-area-order{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.button-order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    background-color: #FFF03D;
+    border-radius: 20px;
+    color: #F05D3E;
+    margin: 10px;
+}

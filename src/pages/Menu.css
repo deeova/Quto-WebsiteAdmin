@@ -1,0 +1,47 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+}
+.card-menu {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    height: 200px;
+    width: 100%;
+    background-color: coral;
+    border-radius: 20px;
+}
+
+.card-menu-text{
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+    
+}
+
+.button-area-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.button-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    background-color: #FFF03D;
+    border-radius: 20px;
+    color: #F05D3E;
+    margin: 10px;
+}
